@@ -23,8 +23,8 @@ git 명령어 `git init`은 새로운 레포를 만들 때 사용한다. (백틱
 print()
 print()
 ```
-
 (백틱 3개, 코드 블록, python에 어울리는 색으로 랜더링해줄 수 있다.)
+
 
 ```javascript
 console.log();
@@ -32,13 +32,14 @@ console.log();
 
 미리보기를 보면 랜더링이 되는 모습을 볼 수 있는데 이는 그냥 사람이 보기 편하게 하기 위함이고 원래는 지금 쓰는 마크다운 문서 자체가 중요한거다.
 
-[Github](https://github.com)
 
 - 하이퍼링크 작성법
+[Github](https://github.com)
 
-![temp](https://img1.kakaocdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/f8Qi/image/nB2ho0vRYaBFs2bJiVcwEINfbcU.jpg)
 
 - 이미지 표시법(앞에 !)
+![temp](https://img1.kakaocdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/f8Qi/image/nB2ho0vRYaBFs2bJiVcwEINfbcU.jpg)
+
 
 | 기술 | 레벨 |
 | ---- | ---- |
@@ -46,8 +47,9 @@ console.log();
 
 (| 파이프 기호를 쓴다, 표)
 
-> 인용문입니다.
 
+> 인용문입니다.
 (다른곳의 코드를 가져올 때 사용)
 
-a
+
+마크다운 문법과 타 문법을 혼동하지 말자.(다른 언어 문법, 리눅스 명령어 등)
