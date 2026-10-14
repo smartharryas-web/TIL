@@ -41,11 +41,9 @@ pwd
 ls
 ls TIL # 특정 폴더의 목록
 ls -l # 상세 보기
-**ls -a*** # 숨김 파일까지 (.으로 시작하는 파일 혹은 폴더)
+**ls -a** # 숨김 파일까지 (.으로 시작하는 파일 혹은 폴더)
 ls -la #숨김 + 상세 보기
 ```
-
-
 
 
 - cd (change directory)
@@ -81,7 +79,6 @@ echo '안녕하세요'
 echo 'hello' > test.txt # 새로 만들기
 echo 'world' >> text.txt # 덮어 씌우기
 ```
-
 - 왼쪽의 return 값을 오른쪽의 파일에 만들어 넣는다.
 - 확장자는 이 파일에 적합한 프로그램을 운영체제에게 실행하게 하기 위한 것이지 확장자가 없더라도 파일을 만드는데 아무 문제가 없다. 파일은 모두 텍스트일 뿐이다.
 - 초기화는 컨트롤 l 또는 clear
@@ -105,11 +102,13 @@ mv는 똑같은 파일 이름이면 덮어쓴다.
 -r 옵션을 붙여줘야 폴더를 다룰 수 있다.
 
 
-- `grep`, `|`
+- `grep`
 ```
-grep touch linux.md # linux.md파일에서 touch가 들어간 줄 출력
-ls -l | grep linux # ls -l 출력결과 중에서 linux가 들어간 줄만 보기
-
+grep [옵션] "찾을 글자" [어디서]
+grep "이한희" a.md
+# grep -rn "get_user" .
+grep touch linux.md  # linux.md 파일에서 touch가 들어간 줄 출력
+ls -l | grep linux  # ls -l 출력결과 중에서 linux가 들어간 줄만 보기
 ```
 
 
@@ -119,7 +118,7 @@ ls -l | grep linux # ls -l 출력결과 중에서 linux가 들어간 줄만 보�
 which node (node명령어 위치)
 ```
 
---help를 쓰면 거의 대부분 명령어에 대한 설명을 출력한다.
+- --help를 쓰면 거의 대부분 명령어에 대한 설명을 출력한다.
 
 
 - find
@@ -138,3 +137,13 @@ which node (node명령어 위치)
 
 - wc
   - wc  [옵션]  [파일...] / <> | wc [옵션]
+
+
+
+- 헷갈리는 거
+1. ls -al (a가 숨긴 파일, l이 상세설명)
+2. grep -rn (r, n은 몇번째 줄인지 표시)
+3. mkdir -p ()
+
+- 다시 풀 문제
+1. 15번, 16번
