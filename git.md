@@ -1,6 +1,9 @@
 # Git
 
 - Head는 내가 보고 있는 위치이다.
+- mainbranch는 동작하는 코드이므로 고치는데 매우 신중해야한다. 보통 다른 branch에서 개발을 끝내고 서비스를 끊기지 않게 한다.
+- 분산버전 관리 시스템 = local + cloud. 파편화된 관리를 git 과 github가 담당한다.
+- 커밋은 의미있는 변경사항의 단위로 끊어서 제출한다.
 
 ## init
 - `.git` 폴더 생성 (사진첩생성)
@@ -34,6 +37,7 @@ git add . # 모든 파일/폴더 올리기
 
 ## remote add
 - 원격저장소 주소를 별명(origin)으로 추가, origin아니어도 추가 가능
+- git remote add 이후 origin자리에 온라인 레포 URL을 맨날 칠 수 없으니까 origin이란 별명을 넣어준 것이다. 이후 URL을 입력한다.
 ```
 git remote add origin https://github.com/SESAC-SD4/TIL.git
 ```
